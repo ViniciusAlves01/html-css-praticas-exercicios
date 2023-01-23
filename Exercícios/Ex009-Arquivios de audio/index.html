@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audios e videos</title>
+</head>
+<body>
+    <h1>Audio</h1>
+    <h2>Áudio hospedado localmente</h2>
+    <audio preload="metadata" controls loop>
+        <source src="midia/River Crossing - ALBIS.mp3" type="audio/mpeg">
+        <source src="midia/River Crossing - ALBIS.ogg" type="audio/ogg">
+        <source src="midia/River Crossing - ALBIS.wav" type="audio/wav">
+    </audio>
+    <h1>Video</h1>
+    <h2>Video hospedado localmente</h2>
+    <video width="560" poster="midia/residentImage.png" controls>
+        <source src="midia/resident.mp4" type="video/mp4">
+        <source src="midia/resident.m4v" type="video/mp4">
+        <source src="midia/resident.webm" type="video/webm">
+        <source src="midia/resident.ogv" type="video/ogg">
+        <p>Seu navegador não é compatível com reprodução de vídeo.</p> 
+    </video> <!-- A tag 'Source' serve nesse caso para testar os formatos compatíveis com o navegador -->
+    <h2>Video incorporado externamente</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/PRJia6v6mf4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

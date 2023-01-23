@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking Book</title>
+    <style>
+        @charset "UTF-8";
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;400;500;600;700&display=swap');
+        
+
+        body{
+            margin: 0;
+            font-family: 'Montserrat Alternates', sans-serif;
+        }
+        /* Cabeçalho */
+        #headercontainer{
+            width: 100%;
+            background-color: #F7EFE4;
+            position: fixed;
+            top: 0;
+        }
+        #headerul{
+            display: flex;
+            justify-content: end;
+            list-style-type: none;
+            padding: 10px 40px;
+            gap: 18px;
+        }
+        .headerlinks{
+            text-decoration: none;
+            font-weight: 500;
+            font-size: large;
+            color: white;
+            background-color: #56A3A6;
+            border-radius: 15px;
+            padding: 9px;
+        }
+        .headerlinks:hover{
+                background-color: #f82505;
+                color: white;
+        }
+        /* Barra de navegação entre links */
+        #navcontainer{
+            margin-top: 74px;
+            width: 100%;
+            position: fixed;
+            background-color: #F7EFE4;
+            border-top: 2px solid #56A3A6;
+            box-shadow: 1px 4px 8px #1a1a1a4e;
+        }
+        #navul{
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            font-weight: 500;
+            gap: 30px;
+            padding: 7px 0px;
+        }
+        .navlinks{
+            text-decoration: none;
+            color: #f82505;
+            padding: 9px;
+            border-radius: 15px;
+        }
+        .navlinks:hover{
+            background-color: #f82505;
+            color: #F7EFE4;
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header id="headercontainer">
+        <ul id="headerul">
+            <li><a href="#" class="headerlinks">Cadastre-se</a></li>
+            <li><a href="#" class="headerlinks">Entrar</a></li>
+            <li><a href="#" class="headerlinks">Sobre</a></li>
+        </ul>
+    </header>
+    <!-- Barra de navegação -->
+    <nav id="navcontainer">
+        <ul id="navul">
+            <li><a href="#" class="navlinks">Pizzas
+            </a></li>
+            <li><a href="#" class="navlinks">Bolos e Tortas</a></li>
+            <li><a href="#" class="navlinks">Lanches</a></li>
+            <li><a href="#" class="navlinks">Saladas e Molhos</a></li>
+            <li><a href="#" class="navlinks">Frutos do Mar</a></li>
+            <li><a href="#" class="navlinks">Bebidas</a></li>
+            <li><a href="#" class="navlinks">Sobremesas</a></li>
+            <li><a href="#" class="navlinks">Fitness</a></li>
+            <li><a href="#" class="navlinks">Sopas</a></li>
+            <li><a href="#" class="navlinks">Todas as receitas</a></li>
+        </ul>
+    </nav>
+    <!-- Rodapé -->
+
+</body>
+</html>

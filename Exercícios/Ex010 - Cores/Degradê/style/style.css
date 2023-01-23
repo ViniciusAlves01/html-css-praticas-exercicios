@@ -1,0 +1,15 @@
+*{
+    height: 100%;
+    
+    letter-spacing: 1px;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    background-image: linear-gradient(to top, #DF131E, #ed7424);
+    background-attachment: fixed;
+}
+
+
+a{
+    
+}
