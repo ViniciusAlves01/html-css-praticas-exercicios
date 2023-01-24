@@ -53,6 +53,11 @@ nav a:hover{
     border-radius: 10px;
     transition-duration: 0.4s;
 }
+nav a:active{
+    color: var(--cor1);
+    background-color: var(--cor4);
+    border-radius: 15px;
+}
 main{
     margin: auto;
     min-width: 280px;
@@ -82,7 +87,7 @@ main p{
     padding: 5px;
     margin: 15px 0px;
     text-align: justify;
-    line-height: 1.5em;
+    line-height: 1.7em;
 }
 main a{
     text-decoration: none;
@@ -97,6 +102,9 @@ main a:hover{
 }
 main a::after{
     content: ' ↗';
+}
+main a:active{
+    color: #56A3A6;
 }
 .pq-img{
     max-width: 300px;
@@ -160,6 +168,17 @@ footer{
 footer > p{
     font-family: var(--fonte-paragrafo);
     font-size: 0.9em;
+}
+.linkespecial{
+    color: var(--cor3);
+    font-weight: bold;
+    text-decoration: none;
+}
+.linkespecial:hover{
+    text-decoration: underline;
+}
+.linkespecial::after{
+    content: ' ↗';
 }
 strong{
     color: var(--cor3);
