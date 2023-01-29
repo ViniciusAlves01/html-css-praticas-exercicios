@@ -7,7 +7,7 @@
     <title>Projeto Cordel</title>
     <style>
         @charset "UTF-8";
-        @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Passion+One&display=swap');
         *{
             margin: 0;
             padding: 0;
@@ -44,40 +44,55 @@
             padding: 25vh 2vw;
         }
         section > p{
-            
-            
-            padding: 10px;
-            font-family: cursive;
+            font-weight: 700;
+            line-height: 1.7em;
+            padding: 15px;
+            font-family: 'Courgette', cursive;
             font-size: 3.5vw;
         }
         .padrao{
             background-color: white;
             
         }
-        .img > p{
-            background-color: rgba(0, 0, 0, 0.53);
-            color: white;
+        .img  p{
+            background-color: transparent;
+            backdrop-filter: blur(6px);
+            border-radius: 10px;
+            color: #1a1a1a;
+            width: 44vw;
         }
         #img1{
             background-image: url(img/background001.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+        }
+        #img1 > p{
+            color: white;
         }
         #img2{
             background-image: url(img/background002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
         }
         footer{
             color: white;
+            margin-top: 15px;
             background-color: #1a1a1a;
-            padding: 20px;
-            text-align: center;
+            color: var(--cor1);
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+        }
+        footer p{
+            font-family: 'Open Sans', sans-serif;
+            color: white;
         }
         footer a{
-            color: white;
+            color: #4e878c;
         }
     </style>
 </head>
@@ -134,13 +149,13 @@
 
     <section class="img" id="img2">
         <p>
-            Pra piorar a liguagem <br>
-            O emoticom é um risco <br>
-            Tem símbolo para tudo <br>
-            Ponto e vírgula e um asterisco <br>
-            Um beijo significa <br>
-            Pra entender como fica <br>
-            Decifre esse rabisco.
+            Tenho saudade das cartas <br>
+            Escritas com a própria mão <br>
+            Mandava no mês de Junho <br>
+            Só chegava no Verão <br>
+            Mas matava a saudade <br>
+            Era texto de verdade <br>
+            Nas linhas do coração.
         </p>
     </section>
     
