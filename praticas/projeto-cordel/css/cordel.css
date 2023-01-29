@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Passion+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+header{
+    background-color: #1a1a1a;
+    text-align: center;
+}
+header > h1{
+    font-family: 'Passion One', cursive;
+    letter-spacing: 2px;
+    font-size: 8vw;
+    padding-top: 50px;
+    color: white;
+}
+header p, header a{
+    color: rgb(225, 225, 225);
+    text-decoration: none;
+    padding-bottom: 50px;
+    font-family: cursive;
+}
+a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    
+    padding: 25vh 2vw;
+}
+section > p{
+    font-weight: 700;
+    line-height: 1.7em;
+    padding: 15px;
+    font-family: 'Courgette', cursive;
+    font-size: 3.5vw;
+}
+.padrao{
+    background-color: white;
+    
+}
+.img  p{
+    background-color: transparent;
+    backdrop-filter: blur(6px);
+    border-radius: 10px;
+    color: #1a1a1a;
+    width: 44vw;
+}
+#img1{
+    background-image: url(img/background001.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#img1 > p{
+    color: white;
+}
+#img2{
+    background-image: url(img/background002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+footer{
+    color: white;
+    margin-top: 15px;
+    background-color: #1a1a1a;
+    color: var(--cor1);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+footer p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+footer a{
+    color: #4e878c;
+}
