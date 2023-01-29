@@ -54,7 +54,7 @@ section > p{
     width: 44vw;
 }
 #img1{
-    background-image: url(img/background001.jpg);
+    background-image: url(../img/background001.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,7 +64,7 @@ section > p{
     color: white;
 }
 #img2{
-    background-image: url(img/background002.jpg);
+    background-image: url(../img/background002.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
